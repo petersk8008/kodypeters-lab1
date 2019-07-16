@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-logo {
+    margin-bottom: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #69696a;
+    margin-bottom: 10px;
+}
+
+#hire-us {
+    background-color: #000;
+    color: #FFF;
+    height: 30px;
+    border-radius: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.body-text {
+    border-left: solid #69696a 3px;
+    padding-left: 10px;
+    color: #69696a;
+}
+
+#scroll-down {
+    background-color: #000;
+    color: #FFF;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
