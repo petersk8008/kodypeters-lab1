@@ -18,6 +18,11 @@ body {
     margin-bottom: 10px;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar a{
     text-decoration: none;
     color: #69696a;
@@ -29,6 +34,7 @@ body {
     color: #FFF;
     height: 30px;
     border-radius: 50px;
+    margin-right: 10px;
 }
 
 section {
@@ -48,4 +54,78 @@ section {
     height: 30px;
     border-radius: 50px;
     margin-top: 20px;
+    margin-left: 10px;
+    width: 95vw;
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    nav {
+        flex-direction: row;
+        margin-right: 15px;
+        align-items: baseline;
+        padding: 10px;
+    }
+
+    section {
+        width: 45vw;
+        padding-top: 100px;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+
+    #scroll-down {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
+
+    }
+
+    .lg-dot {
+        height: 300px;
+        width: 300px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        right: 130px;
+
+    }
+
+    .med-dot {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        right: 35px;
+        top: 300px;
+    }
+
+    .sm-dot {
+        height: 150px;
+        width: 150px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        position: absolute;
+        right: 42px;
+        top: 182px;
+
+    }
 }
